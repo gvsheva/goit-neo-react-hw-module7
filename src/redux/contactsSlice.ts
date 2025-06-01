@@ -1,6 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { ContactModel } from "../model";
-import { addContact, deleteContact, fetchContacts } from "./contactsOps";
+import {
+    addContact,
+    deleteContact,
+    fetchContacts,
+} from "./contacts-ops-typed.ts";
 
 export const contactsSlice = createSlice({
     name: "contacts",

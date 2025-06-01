@@ -3,7 +3,7 @@ import { nanoid } from "nanoid";
 import * as Yup from "yup";
 import css from "./ContactForm.module.css";
 import { useAppDispatch } from "../../hooks";
-import { addContact, fetchContacts } from "../../redux/contactsOps";
+import { addContact, fetchContacts } from "../../redux/contacts-ops-typed";
 
 const schema = Yup.object({
   name: Yup.string()

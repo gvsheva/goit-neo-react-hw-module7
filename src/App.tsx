@@ -4,7 +4,7 @@ import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
 import SearchBox from "./components/SearchBox";
 import { useAppDispatch } from "./hooks";
-import { fetchContacts } from "./redux/contactsOps";
+import { fetchContacts } from "./redux/contacts-ops-typed";
 import Error from "./components/Error";
 
 function App() {
